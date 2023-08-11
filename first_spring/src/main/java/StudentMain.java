@@ -9,7 +9,7 @@ public class StudentMain {
         ApplicationContext context = new ClassPathXmlApplicationContext("spring-config.xml");
 
         // 法一：通过名称获取
-        // 2通过bean的名字，从spring容器中获取spring bean对象
+        // 通过bean的名字，从spring容器中获取spring bean对象
         Student student = (Student) context.getBean("student");
         // 法二：通过类获取(易错点：当spring容器中同一个bean存多次，使用类型获取bean的方式就会出错)
         Student student1 = context.getBean(Student.class);
