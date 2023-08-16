@@ -1,0 +1,32 @@
+
+car:
+  body:
+    tire: 255
+
+
+server:
+  port: 9999
+
+
+
+
+
+str1: li\nsi
+str2: 'li\nsi'
+str3: "li\nsi"
+
+
+
+
+
+
+Student:
+  id: 1
+  name: admin
+  age: 20
+
+
+
+
+
+# 1.yml可以支持很多语言java,php,golang,python等
