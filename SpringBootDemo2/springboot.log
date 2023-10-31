@@ -1,0 +1,15 @@
+2023-10-14 19:11:32.262 TRACE 26804 --- [restartedMain] com.example.demo.ControllerTest1         : I'm trace
+2023-10-14 19:11:32.264 DEBUG 26804 --- [restartedMain] com.example.demo.ControllerTest1         : I'm debug
+2023-10-14 19:11:32.264  INFO 26804 --- [restartedMain] com.example.demo.ControllerTest1         : I'm info
+2023-10-14 19:11:32.265  WARN 26804 --- [restartedMain] com.example.demo.ControllerTest1         : I'm warn
+2023-10-14 19:11:32.265 ERROR 26804 --- [restartedMain] com.example.demo.ControllerTest1         : I'm error
+2023-10-14 19:19:18.064 TRACE 23832 --- [restartedMain] com.example.demo.ControllerTest1         : I'm trace
+2023-10-14 19:19:18.101 DEBUG 23832 --- [restartedMain] com.example.demo.ControllerTest1         : I'm debug
+2023-10-14 19:19:18.101  INFO 23832 --- [restartedMain] com.example.demo.ControllerTest1         : I'm info
+2023-10-14 19:19:18.101  WARN 23832 --- [restartedMain] com.example.demo.ControllerTest1         : I'm warn
+2023-10-14 19:19:18.102 ERROR 23832 --- [restartedMain] com.example.demo.ControllerTest1         : I'm error
+2023-10-14 19:19:40.687 TRACE 19588 --- [restartedMain] com.example.demo.ControllerTest1         : I'm trace
+2023-10-14 19:19:40.689 DEBUG 19588 --- [restartedMain] com.example.demo.ControllerTest1         : I'm debug
+2023-10-14 19:19:40.689  INFO 19588 --- [restartedMain] com.example.demo.ControllerTest1         : I'm info
+2023-10-14 19:19:40.690  WARN 19588 --- [restartedMain] com.example.demo.ControllerTest1         : I'm warn
+2023-10-14 19:19:40.690 ERROR 19588 --- [restartedMain] com.example.demo.ControllerTest1         : I'm error
