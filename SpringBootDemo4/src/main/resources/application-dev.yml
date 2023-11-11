@@ -1,0 +1,17 @@
+# 由于未设置日志级别，因此默认是info，在info级别及以上的日志信息都会被存储。
+
+server:
+  port: 8888
+
+#注意：要想持久化存储日志，可以指定日志存储目录(1)，也可直接指定日志的名称(2)
+#1》这种操作会指定到 E:\\home 目录，如果没有会创建(我这里名字未被改成home，而是显示新建目录)，并将日志文件在该目录中创建出来，并把日志信息写入日志文件
+logging:
+  file:
+    path: E:\\home
+#2》 这种操作是 创建日志文件，将它放在指定路径中，如果未指定，则按以下方式存储
+#logging:
+#  file:
+    name: springboot.log  # 未设置log文件的地址，只设置了名称，会保存在当前项目中
+#    name: E:\\home\\springBoot.log  # 保存在E盘home路径下springBoot的log文件中，如果无home目录，则启动项目时会自动先创建。
+#    name: E:\\home    # 保存在E盘 home路径下，日志文件名字为home。
+
